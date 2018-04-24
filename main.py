@@ -8,6 +8,6 @@ def subme(x, y):
 
 def multme(x, y): 
     # should fail
-    return x ** y
+    return x * y
 
 
