@@ -6,7 +6,7 @@ import main
 class TestCalc(unittest.TestCase): 
     def test_add(self): 
         self.assertEqual(main.addme(5, 5), 10)
-        self.assertEqual(main.addme(5, 0) 5)
+        self.assertEqual(main.addme(5, 0), 5)
 
     def test_sub(self): 
         self.assertEqual(main.subme(4, 2), 2) 
