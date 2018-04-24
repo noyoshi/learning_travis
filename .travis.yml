@@ -4,7 +4,7 @@ python:
     - 3.5 
 
 install: 
-    - pip3 install unittest
+    - pip3 install unittest2
 
 script: 
     - python3 test_main.py
